@@ -6,8 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="01ee3b96-04a7-4d83-be8a-2af5d7e1fa87" name="Changes" comment="all controllers functional, moving on to login, generate reports, customer order and seating">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/SalesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/SalesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/sales.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/sales.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sales_Report.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Sales_Report.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/MenuItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/MenuItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/MenuItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/MenuItemDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/DataSeeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/DataSeeder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/DatabaseInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/DatabaseInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/menu.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +42,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/deanmastria/IceCreamParlor.git&quot;,
-    &quot;accountId&quot;: &quot;3f50524b-dad4-4136-8860-eb440d7c297e&quot;
+    &quot;url&quot;: &quot;https://github.com/FishyBoi72/IceCreamParlor-Fish.git&quot;,
+    &quot;accountId&quot;: &quot;0a1a2eeb-4890-40b4-ae7c-4b902fdd78dd&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -61,6 +70,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -72,8 +82,8 @@
   <component name="RunManager">
     <configuration name="MainApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.MainApp" />
-      <module name="test" />
-      <option name="VM_PARAMETERS" value="--module-path C:\Users\deanm\.m2\repository\org\openjfx\javafx-controls\19.0.2;C:\Users\deanm\.m2\repository\org\openjfx\javafx-fxml\19.0.2;C:\Users\deanm\.m2\repository\org\openjfx\javafx-base\19.0.2;C:\Users\deanm\.m2\repository\org\openjfx\javafx-graphics\19.0.2 --add-modules javafx.controls,javafx.fxml " />
+      <module name="RestaurantManagementSystem" />
+      <option name="VM_PARAMETERS" value="--module-path C:\Users\admin\.m2\repository\org\openjfx\javafx-controls\19.0.2;C:\Users\admin\.m2\repository\org\openjfx\javafx-fxml\19.0.2;C:\Users\admin\.m2\repository\org\openjfx\javafx-base\19.0.2;C:\Users\admin\.m2\repository\org\openjfx\javafx-graphics\19.0.2 --add-modules javafx.controls,javafx.fxml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,6 +108,13 @@
       <workItem from="1724301108085" duration="2202000" />
       <workItem from="1724305196126" duration="4950000" />
       <workItem from="1724310709618" duration="3981000" />
+      <workItem from="1724330555313" duration="2506000" />
+      <workItem from="1724333325381" duration="4677000" />
+      <workItem from="1724338383496" duration="167000" />
+      <workItem from="1724338580029" duration="446000" />
+      <workItem from="1724339031795" duration="15000" />
+      <workItem from="1724339330842" duration="789000" />
+      <workItem from="1724340124248" duration="1994000" />
     </task>
     <task id="LOCAL-00001" summary="start over">
       <option name="closed" value="true" />
